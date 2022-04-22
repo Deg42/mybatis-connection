@@ -15,4 +15,8 @@
             </transactionManager>
         </environment>
     </environments>
+
+    <mappers>
+        <mapper resource="testMysql.xml"/>
+    </mappers>
 </configuration>
