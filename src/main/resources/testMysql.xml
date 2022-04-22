@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE configuration
+<!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<configuration>
-  <mapper namespace="es.fpdual.mybatis.dao">
-    <select id="mysqlVersion" resultType="String">
-      SELECT VERSION()
-    </select>
-  </mapper>
+<mapper namespace="es.fpdual.mybatis.dao">
+  <select id="mysqlVersion" resultType="String">
+      SELECT VERSION();
+  </select>
+</mapper>
